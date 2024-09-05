@@ -1,0 +1,34 @@
+nav {
+    background-color: #343a40; /* พื้นหลังสีเข้ม */
+    padding: 10px 0;
+}
+
+nav .navbar-brand h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-con .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-con .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-con .menu li a:hover {
+    color: #ddd;
+}
